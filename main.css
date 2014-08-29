@@ -29,7 +29,7 @@ img{
 	HEADER NAVIGATION
 **********************/
 .HeaderNavigation{
-	text-align: right;
+	text-align: center;
 	margin: 2px auto;
 }
 .HeaderNavigation ul li{
@@ -78,7 +78,7 @@ img{
 
 
 /*********************
-	SECTION
+	BODY
 **********************/
 .container{
 	text-align: center;
@@ -96,8 +96,7 @@ input[type="text"]{
 	border:1px solid lightgray;
 }
 
-input[type="text"]:hover{
-	
+input[type="text"]:hover{	
 	border:1px solid #B2B2B2;
 }
 
@@ -117,34 +116,14 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
+	box-shadow: 0 1px 1px 1px lightgray;
 	color: #222;
-}
-
-
-/*input{
-	background: url(img/mic.jpg) no-repeat right;
-}*/
-	/*background: #fff;
-	background-image: url('img/mic.gif');
-	background-repeat: no-repeat;
-	background-size: 10px;
-	background-position: right;
-}
-*/
-
-.container ul{
-
 }
 
 
 .container li{
 	display: inline;
 	margin-right: 15px;
-}
-
-.container li:last-child{
-	height: 35px;
-	width: 200px;
 }
 
 
@@ -172,7 +151,7 @@ input[type="submit"]:hover{
 
 
 /*********************
-	FOOTER COLOR
+	FOOTER 
 **********************/
 footer{
 	position: absolute;
