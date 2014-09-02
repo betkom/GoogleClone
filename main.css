@@ -1,0 +1,168 @@
+/*
+/**********************
+	GENERAL
+***********************/
+nav li{
+	display: inline-block;
+
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+}
+
+img{
+	height: 15%;
+}
+
+
+
+
+
+
+/*********************
+	HEADER NAVIGATION
+**********************/
+.HeaderNavigation{
+	text-align: center;
+	margin: 2px auto;
+}
+.HeaderNavigation ul li{
+	text-decoration: none;
+	margin-left:15px;
+	margin-right: 10px;
+	font-family: sans-serif;
+	color: gray;
+	
+}
+.HeaderNavigation li:hover{
+	text-decoration: underline;
+	color: #222;
+	
+}
+.HeaderNavigation ul{
+	margin-right: 10px;
+	font-size: small;
+}
+
+
+.HeaderNavigation ul li img{
+	width: 30px;
+	height: 30px;
+	margin-bottom: -8px;
+	}
+
+.HeaderNavigation ul li:last-child{
+	background:-webkit-linear-gradient(top,#4387fd,#4683ea);
+	background-color:  #0266C8;
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+	text-decoration: none;
+	outline: none;
+	font-weight: bold;
+
+	
+
+}
+.HeaderNavigation ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: small;
+
+}
+
+
+
+/*********************
+	BODY
+**********************/
+.container{
+	text-align: center;
+	margin-top: 150px;
+}
+
+.logo{
+	padding-bottom: 2em;
+}
+
+input[type="text"]{
+	width: 40em;
+	height: 2.3em;
+	background: url(img/mic.jpg) no-repeat right;
+	border:1px solid lightgray;
+}
+
+input[type="text"]:hover{	
+	border:1px solid #B2B2B2;
+}
+
+input[type="text"]:focus{
+	
+
+	border:1px thin #0266C8;
+}
+input[type="submit"]{
+	height: 30px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	background-color: #F3F3F3;
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+	
+}
+
+input[type="submit"]:hover{
+	box-shadow: 0 1px 1px 1px lightgray;
+	color: #222;
+}
+
+
+.container li{
+	display: inline;
+	margin-right: 15px;
+}
+
+
+/*********************
+	FOOTER NAVIGATION
+**********************/
+.firstFooterNav{
+	float: left;
+
+}
+
+.firstFooterNav li{
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+.secondFooterNav{
+	margin-right: 15px;
+	float:right;
+}
+
+.secondFooterNav li{
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+
+/*********************
+	FOOTER 
+**********************/
+footer{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	font-family: sans-serif;
+	font-size: small;
+	color: gray;
+	background-color: #F3F3F3;
+}
